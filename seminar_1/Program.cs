@@ -35,10 +35,10 @@ else // 1 число НЕ является квадратом 2 числа
     Console.WriteLine("Нет"); // 1 число НЕ является квадратом 2 числа
 }
 
-// //Задача2
-// Console.Write("Введите целое число с консоли: ");
-// int test = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine(test * 10);
+//Задача2
+Console.Write("Введите целое число с консоли: ");
+int test = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(test * 10);
 
 //Задача3
 double a = 5;
@@ -84,4 +84,3 @@ else
 {
 Console.WriteLine("Error!");
 }
-
