@@ -155,7 +155,7 @@
 // вот здесь смотрел https://metanit.com/sharp/tutorial/2.5.php
 // При необходимости можно добавить несколько выражений else if:
 // string name = "Alex";
- 
+
 // if (name == "Tom")
 //     Console.WriteLine("Вас зовут Tomas");
 // else if (name == "Bob")
@@ -198,4 +198,87 @@
 // 8 => 8
 // 9542 => 9,5,4,2
 
-int N = 240
+// int N = 240;
+// if (N < 10)
+
+// {
+//      Console.WriteLine(N);
+// }
+// else
+// {
+//     while(N > 0);
+// int currentDigit = N % 10;
+// N /= 10;
+// if (N > 0)
+// {
+// Console.Write(currentDigit + ",");
+// }
+// else
+// {
+// Console.WriteLine(currentDigit);
+// }
+// }
+
+
+
+// Задача 4: Вывод цифр числа через запятую
+
+
+// int N = 456;
+// if (N < 10)
+// {
+// Console.WriteLine(N);
+// }
+// else
+// {
+// while (N > 0)
+// {
+// int currentDigit = N % 10;
+// N /= 10;
+// if (N > 0)
+// {
+// Console.Write(currentDigit + ",");
+// }
+// else
+// {
+// Console.WriteLine(currentDigit);
+// }
+// }
+// }
+
+// int myInt = 21325425;
+//  string myString = myInt.ToString(); // моя строка это мое число в строке в символах
+// char[] charArray = myString.ToCharArray(); // Массив = моей строке 
+// foreach (char i in charArray) // цикл foreach проход массива 
+// {
+// int charparse = int.Parse(i.ToString()); // делаем из символов числа
+//     Console.Write(charparse + ",");
+
+// }
+
+
+
+double[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01};
+            double min = array[0];
+            double max = array[0];
+int result = 0;
+           array  = new double [7];
+           
+            for (int i = 0; i < array.Length; i++)
+            {
+            
+                if (array[i] < min)
+                {
+                     min=array[0];
+                }
+                if (array[i] > max)
+                   max=array[0];
+                }  
+                {           
+                return result;
+                }
+    Console.WriteLine(max);
+    Console.WriteLine(min);
+
+        
+
