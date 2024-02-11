@@ -258,27 +258,27 @@
 
 
 
-double[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01};
-            double min = array[0];
-            double max = array[0];
-int result = 0;
-           array  = new double [7];
+// double[] array = {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01};
+//             double min = array[0];
+//             double max = array[0];
+// int result = 0;
+//            array  = new double [7];
            
-            for (int i = 0; i < array.Length; i++)
-            {
+//             for (int i = 0; i < array.Length; i++)
+//             {
             
-                if (array[i] < min)
-                {
-                     min=array[0];
-                }
-                if (array[i] > max)
-                   max=array[0];
-                }  
-                {           
-                return result;
-                }
-    Console.WriteLine(max);
-    Console.WriteLine(min);
+//                 if (array[i] < min)
+//                 {
+//                      min=array[0];
+//                 }
+//                 if (array[i] > max)
+//                    max=array[0];
+//                 }  
+//                 {           
+//                 return result;
+//                 }
+//     Console.WriteLine(max);
+//     Console.WriteLine(min);
 
         
 
