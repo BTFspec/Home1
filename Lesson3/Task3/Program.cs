@@ -16,12 +16,12 @@ void ZeroeEvenElements(int[] arr)
 
 void PrintArray(int[] arr)
 {
-    foreach (int e in arr) //перебор массива
+    foreach (int e in arr)       // перебор массива
     {
-        Console.Write($"{e} "); //обращаемся к переменной е
+        Console.Write($"{e} ");  // обращаемся к переменной е
     }
 }
 
-int[] array = { 1, 2, 3, 4, 5 };     //задали массив для этих функций
-ZeroeEvenElements(array);      // при передаче аргумента не нужно указывать его тип данных;
-PrintArray(array); //функция перебора массива и вывод в терминал
+int[] array = { 1, 2, 3, 4, 5 };     // задали массив для этих функций;
+ZeroeEvenElements(array);            // при передаче аргумента не нужно указывать его тип данных;
+PrintArray(array);                   // функция перебора массива и вывод в терминал;
